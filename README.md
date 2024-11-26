@@ -14,3 +14,5 @@ create table customers(name varchar(45),nic char(12) primary key);
 
 create table billing_data(nic char(12),date date, string, time time,room_type varchar(15), parking bit, luggage bit, cleaning bit, room_service bit, bar bit, pool bit, spa  bit, wellness bit,FOREIGN KEY (nic) REFERENCES customers(nic));
 
+You have to replace "Server Name" with your SSMS Server Name.
+Changes are Needed in 30th line in EnterUserInformation.cs File and 25th,63rd and 100th lines in HistoryForm.cs File. 
