@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\HotelManagementSystem.exe.config
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\HotelManagementSystem.exe
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\HotelManagementSystem.pdb
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.exe
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.pdb
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.EnterUserInformation.resources
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.csproj.GenerateResource.cache
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.Bill.resources
+C:\Users\user\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.HistoryForm.resources
