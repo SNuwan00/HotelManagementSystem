@@ -26,7 +26,7 @@ namespace HotelManagementSystem
 
             DBConnection instance = DBConnection.GetInstance();
 
-            //#### Update this space with your Serever Name.
+            //Update this space with your Serever Name.
             SqlConnection conn = instance.getConnection("Server Name", "hotel_management_system_database", "true");
             
             conn.Open();
