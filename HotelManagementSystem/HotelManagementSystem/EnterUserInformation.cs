@@ -25,7 +25,9 @@ namespace HotelManagementSystem
             string time = currentDateTime.ToString("HH:mm:ss");
 
             DBConnection instance = DBConnection.GetInstance();
-            SqlConnection conn = instance.getConnection("SANJUKA\\SQLEXPRESS", "hotel_management_system_database", "true");
+
+            //#### Update this space with your Serever Name.
+            SqlConnection conn = instance.getConnection("Server Name", "hotel_management_system_database", "true");
             
             conn.Open();
             
