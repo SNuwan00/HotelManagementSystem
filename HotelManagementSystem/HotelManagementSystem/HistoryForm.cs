@@ -20,7 +20,9 @@ namespace HotelManagementSystem
         {
             List<Customer> customers = new List<Customer>();
             DBConnection instance = DBConnection.GetInstance();
-            SqlConnection conn = instance.getConnection("SANJUKA\\SQLEXPRESS", "hotel_management_system_database", "true");
+
+            //#### Update this space with your Serever Name.
+            SqlConnection conn = instance.getConnection("Server Name", "hotel_management_system_database", "true");
             conn.Open();
 
             string query = "SELECT c.name, b.* FROM billing_data b INNER JOIN customers c ON b.nic = c.nic;";
@@ -56,7 +58,9 @@ namespace HotelManagementSystem
             DateTime date = DateTime.Parse(dateText);
             List<Customer> customers = new List<Customer>();
             DBConnection instance = DBConnection.GetInstance();
-            SqlConnection conn = instance.getConnection("SANJUKA\\SQLEXPRESS", "hotel_management_system_database", "true");
+
+            //#### Update this space with your Serever Name.
+            SqlConnection conn = instance.getConnection("Server Name", "hotel_management_system_database", "true");
             conn.Open();
 
             string query = "SELECT c.name, b.* FROM billing_data b INNER JOIN customers c ON b.nic = c.nicwhere date= '"+date+"';";
@@ -91,7 +95,9 @@ namespace HotelManagementSystem
             string NIC = textBox2.Text;
             List<Customer> customers = new List<Customer>();
             DBConnection instance = DBConnection.GetInstance();
-            SqlConnection conn = instance.getConnection("SANJUKA\\SQLEXPRESS", "hotel_management_system_database", "true");
+
+            //#### Update this space with your Serever Name.
+            SqlConnection conn = instance.getConnection("Server Name", "hotel_management_system_database", "true");
             conn.Open();
 
             string query = "SELECT c.name, b.* FROM billing_data b INNER JOIN customers c ON b.nic = c.nic where b.nic= '" + NIC + "';";
